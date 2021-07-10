@@ -68,6 +68,8 @@ span.SiteName {
     font-weight: bold;
     align-self: center;
     justify-self: center;
+    text-align: center;
+    overflow: auto;
 }
 
 img.Icons {
