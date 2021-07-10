@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    width: 100vw;
+}
+
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(33, 33, 33);
+    font-family: "Times New Roman", serif, monospace;
+    display: grid;
+    grid-template-rows: 36px 1fr 36px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+div.top {
+    border-bottom: 12px double rgb(125, 76, 219);
+}
+
+div.main{
+    padding: 1%;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+}
+
+
+div.App {
+    display: grid;
+    grid-template-columns: min-content min-content min-content min-content min-content;
+}
+
+a.StyledButton {
+    display: grid;
+    min-width: 108px;
+    min-height: calc(96px + 2em);
+    width: 8vw;
+    height: calc(8vw + max(1.5rem, 1.5vw));
+    grid-template-rows: min-content 1.5em;
+    text-decoration: none;
+    font-size: max(1.2rem, 1vw);
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.ShortButtonGap {
+    height: max(18px, 3vh);
+    width: 8vw;
+    min-width: 108px;
+}
+
+div.SkinnyButtonGap {
+    width: max(18px, 3vw);
+    height: calc(8vw + max(1.5rem, 1.5vw));
+    min-height: calc(96px + 2em);
+}
+
+div.SmallButtonGap {
+    width: max(18px, 3vw);
+    height: max(18px, 3vh);
+}
+
+span.SiteName {
+    color:rgb(125, 76, 219);
+    font-weight: bold;
+    align-self: center;
+    justify-self: center;
+}
+
+img.Icons {
+    min-width: 96px;
+    width: 89%;
+    justify-self: center;
+    align-self: center;
+}
+
+div.bottom {
+    border-top: 12px double rgb(125, 76, 219);
+}

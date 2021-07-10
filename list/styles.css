@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(33, 33, 33);
+    font-family: "Times New Roman", serif, monospace;
+    display: grid;
+    grid-template-rows: 36px 1fr 36px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+div.top {
+    border-bottom: 12px double rgb(125, 76, 219);
+}
+div.WelcomeBanner {
+    color: darkgray;
+    align-self: center;
+    overflow: auto;
+    justify-self: center;
+}
+
+div.main{
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+}
+a.StyledButton {
+    display: grid;
+    grid-template-columns: 84px 1fr;
+    text-decoration: none;
+}
+
+div.Text {
+    display: grid;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    grid-template-rows: 2fr 5fr;
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.App {
+    width: 85vw;
+    max-width: 456px;
+}
+span.SiteName {
+    color:rgb(125, 76, 219);
+    font-weight: bold;
+    align-self: center;
+}
+
+span.Description {
+    font-size: 0.8rem;
+    font: sans-serif;
+    text-align: left;
+    align-content: center;
+    color:rgb(169, 169, 169);
+    align-self: center;
+}
+img.Icons {
+    width: 72px;
+}
+
+div.bottom {
+    border-top: 12px double rgb(125, 76, 219);
+}

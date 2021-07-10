@@ -1,0 +1,20 @@
+[
+  {
+      "siteName" : "Jellyfin",
+      "url" : "https://jellyfin.org",
+      "iconPath" : "./icons/Jellyfin.png",
+      "description" : "All the quirky TV you could ask for. Eventually."
+    },
+  {
+     "siteName" : "Element",
+      "url" : "https://element.io",
+      "iconPath" : "./icons/Element.png",
+      "description" : "Encrypted messaging service hosted by yours truly."
+    },
+  {
+      "siteName" : "Jitsi",
+      "url" : "https://jitsi.org",
+      "iconPath" : "./icons/Jitsi.png",
+      "description" : "Encrypted video and voice calls at the touch of a button."
+    }
+  ]
