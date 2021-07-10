@@ -17,18 +17,14 @@ body {
 div.top {
     border-bottom: 12px double rgb(125, 76, 219);
 }
-div.WelcomeBanner {
-    color: darkgray;
-    align-self: center;
-    overflow: auto;
-    justify-self: center;
-}
 
 div.main{
     align-self: center;
     display: grid;
+    padding: 3%;
     grid-template-columns: 1fr min-content 1fr;
 }
+
 a.StyledButton {
     display: grid;
     grid-template-columns: 84px 1fr;
