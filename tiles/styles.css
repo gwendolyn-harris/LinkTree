@@ -73,8 +73,9 @@ span.SiteName {
 }
 
 img.Icons {
-    min-width: 96px;
     width: 89%;
+    height: calc(0.89 * 8vw);
+    min-height: 96px;
     justify-self: center;
     align-self: center;
 }
